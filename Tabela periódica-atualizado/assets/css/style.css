@@ -1,0 +1,123 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background-color: rgba(36, 34, 34, 0.671);
+    justify-content: center;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.column,.l-II *,.l-I *{
+    margin-right: 5px;
+}
+
+.top{
+    align-items: flex-end;
+    height: 700px;
+    justify-content: center;
+}
+
+.itens{
+    height:88px;
+    width:88px;
+    padding:6px;
+    background: blue;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    border-radius:6px;
+    margin-bottom: 5px;
+}
+
+.c-II{
+    margin-right: 1.5%;
+}
+
+p{
+    align-self:start;
+    font-size:14px;
+}
+
+h4{
+    font-size:11px;
+}
+
+h2{
+    font-size:28px;
+}
+
+h6{
+    font-size:8px;
+}
+
+/*Famílias da tabela*/
+
+.n-metal{
+    background-color:#E4EEFD;
+    color: #2163E7;
+}
+
+.metais-alcalinos{
+    background-color: #DEF7FE;
+    color: #317389;
+}
+
+.alcalinos-terrosos{
+    background-color: #FBE8E7;
+    color: #C4292E;
+}
+
+.metais-transicao{
+    background-color: #F1E8FB;
+    color: #5A3EE3;
+}
+
+.halogenios{
+    background-color: #E3F2FE;
+    color: #113352;
+}
+
+.actinidios{
+    background-color: #FBE7D6;
+    color: #B83E1D;
+}
+
+.gray{
+    background-color: #E7E7EA;
+    color: #3E374D;
+}
+
+.semimetais{
+    background-color: #FDF7E2;
+    color: #8C591D;
+}
+
+.gases-nobres{
+    background-color: #FBE8EB;
+    color: #BC335F;
+}
+
+.outros-metais{
+    background-color: #DDF8E9;
+    color: #0E2B06;
+}
+
+.bottom{
+    flex-direction: column;
+    margin-left: 287px;
+    margin-top: 50px;
+}

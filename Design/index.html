@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática - HTML + CSS II (Utilizando Flexbox no Alinhamento)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container-right">
+            <div class="titulos">
+                <h1>Payment Details</h1>
+                <p>Complete your purchase by providing your payment details</p>
+            </div>
+            <div class="container-right-payment">
+                <h2>Payment Method</h2>
+                <div class="container-cards">
+                    <div class="cards black">
+                        <div class="top">
+                            <div id="red-circle"></div>
+                            <div id="yellow-circle"></div>
+                        </div>
+                        <div class="bottom">
+                            **5544
+                        </div>
+                    </div>
+                    <div class="cards interme">
+                        <div class="top">
+                            <div id="red-circle"></div>
+                            <div id="yellow-circle"></div>
+                        </div>
+                        <div class="bottom">
+                            **6677
+                        </div>
+                    </div>
+                    <div class="cards gray">
+                        <div class="top">
+                            <div id="red-circle"></div>
+                            <div id="yellow-circle"></div>
+                        </div>
+                        <div class="bottom">
+                            **1321
+                        </div>
+                    </div>
+                    <div class="new-card">
+                        <div class="qualquer">
+                            <img src="icons/square-plus-regular.svg" alt="">
+                            <p>New Card</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="discount">
+                    <p>%</p>
+                    <div class="extra-discount">
+                        <p>Get an extra -25% discount</p>
+                        <span id="blue">
+                            Learn more
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-method">
+                <div class="delivery items">
+                    <div class="left">
+                        <img src="icons/box-solid.svg" alt="">
+                        <div class='info'>
+                            <p>Courier delivery</p>
+                            <p>3993 Davis Avenue, Philadelphia, Georfia</p>
+                        </div>
+                    </div>
+                    <img src="icons/angle-right-solid.svg" alt="">
+                </div>
+                <div class="count items">
+                    <div class="left">
+                        <img src="icons/user-regular.svg" alt="">
+                        <div class='info'>
+                            <p>Viktor T.</p>
+                            <p>mail@gmail.com</p>
+                        </div>
+                    </div>
+                    <img src="icons/angle-right-solid.svg" alt="">
+                </div>
+                <div class="mensagem items">
+                    <div class="left">
+                        <img src="icons/message-regular.svg" alt="">
+                        <div class='info'>
+                            <p>Comment to the courier</p>
+                            <p>Don't ring the dorrbell</p>
+                        </div>
+                    </div>
+                    <img src="icons/angle-right-solid.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container-left">
+            <div class="descrition">
+                <div class="total">
+                    <h1>Total</h1>
+                    <h1 id="valuer">$89.57</h1>
+                </div>
+                <div class="itens">
+                    <div class="items">
+                        <p>Items</p>
+                        <p>3</p>
+                    </div>
+                    <div class="items">
+                        <p>Discount</p>
+                        <p id="red-text">-$3.5</p>
+                    </div>
+                    <div class="items">
+                        <p>Shipping Cost</p>
+                        <p>Free</p>
+                    </div>
+                </div>
+                <div class="split">
+                    <h2>Split payment into parts</h2>
+                    <div class="turn-on">
+                        <div class="turn_off">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="meses">
+                    <div class="meses-items">
+                        <div class="progress"></div>
+                        <h2>Jul 1</h2>
+                        <h3>$44.6</h3>
+                    </div>
+                    <div class="meses-items">
+                        <div class="progress"></div>
+                        <h2>Jul 10</h2>
+                        <h3>$11.1</h3>
+                    </div>
+                    <div class="meses-items">
+                        <div class="progress"></div>
+                        <h2>Jul 20</h2>
+                        <h3>$11.1</h3>
+                    </div>
+                    <div class="meses-items">
+                        <div class="progress"></div>
+                        <h2>Jul 31</h2>
+                        <h3>$22.3</h3>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Pay $89.57
+            </button>
+            <p class="last">By clicking the button, you agree to the <span>Terms of Service</span> as well as the <span>Terms of sale</span></p>
+        </div>
+    </main>
+</body>
+</html>
